@@ -1,7 +1,17 @@
 /* LoCoBot */
 .locobot-flex_all_items {
     display: flex;
+    margin-left: 25px;
+    margin-right: 25px;
 }
+
+div.cr3-cr5-flex {
+    display: flex;
+  }
+  
+  div.cr10-cr16-flex {
+    display: flex;
+  }
 
 /* Border color on hover */
 div.locobot-border-hover1 {
@@ -36,57 +46,111 @@ div.locobot-border-hover4:hover {
     outline: 5px solid transparent;
 }
 
-h1.specifications {
-    color: #02abe9;
-    font-weight: 600;
-    font-size: 22px;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+div.locobot-spec-box {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+h1.locobot-wx200-spec,
+h1.locobot-wx250-spec,
+h1.locobot-px100-spec,
+h1.locobot-base-spec {
+  color: #02abe9;
+  font-weight: 600;
+  font-size: 22px;
+  text-align: center;
 }
 
-/* This will remove the bullet points */
-ul.left-list {
-    list-style-type: none;
+h1.locobot-wx200-spec {
+  margin-left: 10px;
 }
 
-/* This will remove the bullet points */
-ul.right-list {
-    list-style-type: none;
-    pointer-events: none;
-    cursor: default;
+h1.locobot-wx250-spec {
+  margin-left: 10px;
+}
+
+h1.locobot-px100-spec {
+  margin-left: 20px;
+}
+
+h1.locobot-base-spec {
+  margin-left: 20px;
 }
 
 /* This will place both lists next to each other */
-element.specifications {
+element.locobot-info {
     display: flex;
-}
+    justify-content: center;
+  }
 
-/* .first img & spec {
-    position: absolute;
+/* This will remove the bullet points */
+ul.locobot-left-list {
+    list-style-type: none;
   }
   
-  .second img & spec {
-    position: absolute;
+  /* This will remove the bullet points */
+  ul.locobot-right-list {
+    list-style-type: none;
+    pointer-events: none;
+    cursor: default;
   }
-
-  .third img & spec {
-    position: absolute;
-  }
-
-  .fourth img & spec {
-    position: absolute;
-  } */
 
 /* This will create the line */
 h2.line {
     border-left: 1.8px solid black;
     height: 150px;
-}
+  }
 
-/*This is the mobile version*/
-@media (max-width: 667px) {
-    div.flex_all_items {
-        max-width: 380px;
-        display: inline-block;
-        text-align: left;
+  /* EDIT */
+@media only screen and (max-width: 1419px) {
+    h1.locobot-wx200-spec {
+      margin-left: 0px;
     }
-}
+  
+    h1.locobot-wx250-spec {
+      margin-left: 0px;
+    }
+  
+    h1.locobot-px100-spec {
+      margin-left: 0px;
+    }
+  
+    h1.locobot-base-spec {
+      margin-left: 0px;
+    }
+  }
+
+  /* EDIT */
+@media only screen and (max-width: 1245px) {
+    .locobot-flex_all_items {
+      margin-left: 80px;
+      margin-right: 80px;
+    }
+  
+    div.cr3-cr5-flex {
+      display: block;
+    }
+    
+    div.cr10-cr16-flex {
+      display: block;
+    }
+  }
+  
+  /* TABLET 
+  @media only screen and (max-width: 1024px) {
+    div.dobot-contact-box12 {
+      flex-flow: wrap;
+      justify-content: center;
+      margin-top: 0px;
+    }
+  } */
+
+/* MOBILE */
+@media (max-width: 667px) {
+    div.locobot-flex_all_items {
+      display: none;
+      max-width: 380px;
+      /* display: inline-block; */
+      text-align: left;
+    }
+  }
