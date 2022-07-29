@@ -96,9 +96,11 @@ ul.locobot-left-list {
   }
 
 /* This will create the line */
-h2.line {
+h2.locobot-divider {
     border-left: 1.8px solid black;
     height: 150px;
+    margin-bottom: 0px; 
+    margin-top: 0px;
   }
 
   /* EDIT */
