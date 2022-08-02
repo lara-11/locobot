@@ -1,4 +1,5 @@
-/* LoCoBot */
+/* LoCoBot */ 
+/* LoCoBot (PyRobot) */
 h1.locobot-discontinued {
   text-align: center;
   font-size: 28px;
@@ -89,7 +90,7 @@ ul.locobot-right-list {
 /* This will create the line */
 h2.locobot-divider {
   border-left: 1.8px solid black;
-  height: 150px;
+  height: 200px;
   margin-bottom: 0px;
   margin-top: 0px;
 }
@@ -100,6 +101,7 @@ ul.locobot-left-list {
   padding-left: 0px;
 }
 
+li.left-locobot-product0,
 li.left-locobot-product1,
 li.left-locobot-product2,
 li.left-locobot-product3,
@@ -115,6 +117,7 @@ ul.locobot-right-list {
   padding-left: 23px;
 }
 
+li.right-locobot-product0,
 li.right-locobot-product1,
 li.right-locobot-product2,
 li.right-locobot-product3,
@@ -147,25 +150,19 @@ li.right-locobot-product6 {
 /* EDIT */
 @media only screen and (max-width: 1245px) {
   .locobot-flex_all_items {
+    display: flex;
+    flex-flow: wrap;
     margin-left: 80px;
     margin-right: 80px;
     justify-content: space-evenly;
   }
 
-  div.locobot-border-hover2 {
+  div.locobot-border-hover3 {
     margin-top: 50px;
   }
 
   div.locobot-border-hover4 {
     margin-top: 50px;
-  }
-
-  div.wx200-wx250-flex {
-    display: block;
-  }
-
-  div.px100-base-flex {
-    display: block;
   }
 
   div.locobot-element-box {
@@ -190,7 +187,7 @@ li.right-locobot-product6 {
   }
 
   div.locobot-spec-box {
-    margin-left: 60px;
+    margin-left: 47px;
     margin-right: 30px;
   }
 }
