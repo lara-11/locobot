@@ -590,132 +590,132 @@ figure.locobot-video2 {
   }
 
   /* SECTION 6 */
-  h1.agilex-drive-title-h1 {
+  h1.locobot-sec6-h1 {
     font-size: 60px;
     text-align: center;
     color: #1a272d;
     margin: 40px 0px 0px 0px;
   }
   
-  div.agilex-drive-line {
+  div.locobot-sec6-line {
     height: 2px;
     background: #1a272d;
     margin: 15px 740px 10px 740px;
   }
   
-  div.agilex-flex-container8 {
+  div.locobot-container6 {
     display: flex;
     justify-content: center;
     margin-bottom: 10px;
   }
   
-  div.agilex-drive-box1 {
+  div.locobot-sec6-box1 {
     width: 450px;
     padding: 0px 0px 40px 0px;
     margin-left: 120px;
   }
   
-  figure.agilex-drive-container1 {
+  figure.locobot-sec6-img1 {
     text-align: center;
     margin: 0px 40px 0px 40px;
   }
   
-  img.agilex-drive-scout {
+  img.locobot-sec6-img-src1 {
     width: 200px;
   }
   
-  h1.agilex-drive1-h1 {
+  h1.locobot-sec6-l1-h1 {
     font-size: 20px;
     text-align: center;
     color: #1a272d;
     margin: 0px 40px 10px 40px;
   }
   
-  p.agilex-drive1-p {
+  p.locobot-sec6-l1-p {
     font-size: 14.5px;
     text-align: center;
     margin: 0px 40px 0px 40px;
   }
   
-  div.agilex-drive-box2 {
+  div.locobot-sec6-box2 {
     width: 450px;
     padding: 0px 0px 40px 0px;
   }
   
-  figure.agile-drive-container2 {
+  figure.locobot-sec6-img2 {
     text-align: center;
     margin: 0px 40px 0px 40px;
   }
   
-  img.agilex-drive-scoutmini {
+  img.locobot-sec6-img-src2 {
     /* transform: scaleX(-1); */
     width: 200px;
   }
   
-  h1.agilex-drive2-h1 {
+  h1.locobot-sec6-l2-h1 {
     text-align: center;
     font-size: 20px;
     color: #1a272d;
     margin: 0px 40px 10px 40px;
   }
   
-  p.agilex-drive2-p {
+  p.locobot-sec6-l2-p {
     font-size: 14.5px;
     text-align: center;
     margin: 0px 40px 0px 40px;
   }
   
-  div.agilex-drive-box3 {
+  div.locobot-sec6-box3 {
     width: 450px;
     padding: 0px 0px 40px 0px;
   }
   
-  figure.agile-drive-container3 {
+  figure.locobot-sec6-img3 {
     text-align: center;
     margin: 0px 40px 0px 40px;
   }
   
-  img.agilex-drive-bunker {
+  img.locobot-sec6-img-src3 {
     width: 200px;
   }
   
-  h1.agilex-drive3-h1 {
+  h1.locobot-sec6-r1-h1 {
     text-align: center;
     font-size: 20px;
     color: #1a272d;
     margin: 0px 40px 10px 40px;
   }
   
-  p.agilex-drive3-p {
+  p.locobot-sec6-r1-p {
     font-size: 14.5px;
     text-align: center;
     margin: 0px 40px 0px 40px;
   }
   
-  div.agilex-drive-box4 {
+  div.locobot-sec6-box4 {
     width: 450px;
     padding: 0px 0px 40px 0px;
     margin-right: 120px;
   }
   
-  figure.agilex-drive-container4 {
+  figure.locobot-sec6-img4 {
     text-align: center;
     margin: 0px 40px 0px 40px;
   }
   
-  img.agilex-drive-rangermini {
+  img.locobot-sec6-img-src4 {
     transform: scaleX(-1);
     width: 200px;
   }
   
-  h1.agilex-drive4-h1 {
+  h1.locobot-sec6-r2-h1 {
     text-align: center;
     font-size: 20px;
     color: #1a272d;
     margin: 0px 40px 10px 40px;
   }
   
-  p.agilex-drive4-p {
+  p.locobot-sec6-r2-p {
     font-size: 14.5px;
     text-align: center;
     margin: 0px 40px 0px 40px;
@@ -723,100 +723,100 @@ figure.locobot-video2 {
   
   /* Fixes line issue */
   @media only screen and (max-width: 1675px) {
-    div.agilex-drive-line {
+    div.locobot-sec6-line {
       margin: 15px 640px 10px 640px;
     }
   }
   
   /* Fixes line issue */
   @media only screen and (max-width: 1455px) {
-    div.agilex-drive-line {
+    div.locobot-sec6-line {
       margin: 15px 540px 10px 540px;
     }
   }
   
   /* Fixes line issue */
   @media only screen and (max-width: 1200px) {
-    div.agilex-drive-line {
+    div.locobot-sec6-line {
       margin: 15px 440px 10px 440px;
     }
   }
   
   /* TABLET */
   @media only screen and (max-width: 1024px) {
-    div.agilex-drive-box1 {
+    div.locobot-sec6-box1 {
       padding: 0px 0px 40px 0px;
       margin: 0px 0px 0px 80px;
     }
   
-    h1.agilex-drive-title-h1 {
+    h1.locobot-sec6-h1 {
       font-size: 5vw;
       margin-top: 40px;
     }
   
-    figure.agilex-drive-container1 {
+    figure.locobot-sec6-img1 {
       margin: 0px 0px 0px 0px;
     }
   
-    h1.agilex-drive1-h1 {
+    h1.locobot-sec6-l1-h1 {
       margin: 15px 0px 10px 0px;
     }
   
-    p.agilex-drive1-p {
+    p.locobot-sec6-l1-p {
       font-size: 13.5px;
       margin: 0px 0px 0px 0px;
     }
   
-    div.agilex-drive-box2 {
+    div.locobot-sec6-box2 {
       margin: 0px 12.5px 0px 25px;
       padding: 0px 0px 40px 0px;
     }
   
-    figure.agile-drive-container2 {
+    figure.locobot-sec6-img2 {
       margin: 0px 0px 0px 0px;
     }
   
-    h1.agilex-drive2-h1 {
+    h1.locobot-sec6-l2-h1 {
       margin: 15px 0px 10px 0px;
     }
   
-    p.agilex-drive2-p {
+    p.locobot-sec6-l2-p {
       font-size: 13.5px;
       margin: 0px 0px 0px 0px;
     }
   
-    div.agilex-drive-box3 {
+    div.locobot-sec6-box3 {
       margin: 0px 25px 0px 12.5px;
       padding: 0px 0px 40px 0px;
     }
   
-    figure.agile-drive-container3 {
+    figure.locobot-sec6-img3 {
       margin: 0px 0px 0px 0px;
     }
   
-    h1.agilex-drive3-h1 {
+    h1.locobot-sec6-r1-h1 {
       margin: 15px 0px 10px 0px;
     }
   
-    p.agilex-drive3-p {
+    p.locobot-sec6-r1-p {
       font-size: 13.5px;
       margin: 0px 0px 0px 0px;
     }
   
-    div.agilex-drive-box4 {
+    div.locobot-sec6-box4 {
       margin-right: 80px;
       padding: 0px 0px 40px 0px;
     }
   
-    figure.agilex-drive-container4 {
+    figure.locobot-sec6-img4 {
       margin: 0px 0px 0px 0px;
     }
   
-    h1.agilex-drive4-h1 {
+    h1.locobot-sec6-r2-h1 {
       margin: 15px 0px 10px 0px;
     }
   
-    p.agilex-drive4-p {
+    p.locobot-sec6-r2-p {
       font-size: 13.5px;
       margin: 0px 0px 0px 0px;
     }
@@ -824,76 +824,76 @@ figure.locobot-video2 {
   
   /* MOBILE */
   @media only screen and (max-width: 736px) {
-    div.agilex-flex-container8 {
+    div.locobot-container6 {
       display: block;
       justify-content: center;
       margin-bottom: 10px;
     }
   
-    div.agilex-drive-box1 {
+    div.locobot-sec6-box1 {
       width: auto;
       margin: 0px 30px 0px 30px;
       padding: 0px 0px 20px 0px;
     }
   
-    h1.agilex-drive1-h1 {
+    h1.locobot-sec6-l1-h1 {
       margin-top: 0px;
     }
   
-    p.agilex-drive1-p {
+    p.locobot-sec6-l1-p {
       font-size: 14px;
       margin: 0px 0px 0px 0px;
     }
   
-    div.agilex-drive-box2 {
+    div.locobot-sec6-box2 {
       width: auto;
       margin: 0px 30px 0px 30px;
       padding: 0px 0px 20px 0px;
     }
   
-    h1.agilex-drive2-h1 {
+    h1.locobot-sec6-l2-h1 {
       margin-top: 0px;
     }
   
-    p.agilex-drive2-p {
+    p.locobot-sec6-l2-p {
       font-size: 14px;
       margin: 0px 0px 0px 0px;
     }
   
-    div.agilex-drive-box3 {
+    div.locobot-sec6-box3 {
       width: auto;
       margin: 0px 30px 0px 30px;
       padding: 0px 0px 20px 0px;
     }
   
-    h1.agilex-drive3-h1 {
+    h1.locobot-sec6-r1-h1 {
       margin-top: 0px;
     }
   
-    p.agilex-drive3-p {
+    p.locobot-sec6-r1-p {
       font-size: 14px;
       margin: 0px 0px 0px 0px;
     }
   
-    div.agilex-drive-box4 {
+    div.locobot-sec6-box4 {
       width: auto;
       margin: 0px 30px 0px 30px;
       padding: 0px 0px 30px 0px;
     }
   
-    p.agilex-drive4-p {
+    p.locobot-sec6-r2-p {
       font-size: 14px;
       margin: 0px 0px 0px 0px;
     }
   
-    h1.agilex-drive-title-h1 {
+    h1.locobot-sec6-h1 {
       display: block;
       text-align: center;
       font-size: 45px;
       margin: 30px 0px 0px 0px;
     }
   
-    div.agilex-drive-line {
+    div.locobot-sec6-line {
       display: block;
       margin: 10px 70px 10px 70px;
     }
