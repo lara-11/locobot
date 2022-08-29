@@ -366,111 +366,108 @@ figure.agilex-video2 {
     }
   }
   
-  /* AGILE-X VSLAM */
-  div.agilex-flex-container9 {
+   /* SECTION 4 */
+   div.dobot-flex-container4 {
     display: flex;
     justify-content: center;
-    margin-bottom: 10px;
     background: #e2f2fb;
+    margin-bottom: 10px;
   }
-  
-  div.agilex-vslam-box1 {
-    margin-left: 120px;
-    padding: 60px 0px 60px 0px;
+
+  div.dobot-cr-box1 {
+    padding: 60px 50px 60px 120px;
   }
-  
-  figure.agilex-vslam-img {
-    max-width: 915px;
+
+  iframe.dobot-cr-video {
+    width: 700px;
+    height: 380px;
+    max-width: 100%;
   }
-  
-  img.agilex-vslam-img1 {
-    width: 100%;
+
+  div.dobot-cr-box2 {
+    padding: 100px 120px 60px 50px;
   }
-  
-  div.agilex-vslam-box2 {
-    width: 951.3px;
-    padding: 130px 0px 60px 0px;
-  }
-  
-  h1.agilex-vslam-h1 {
-    font-size: 62px;
+
+  h1.dobot-cr-h1 {
+    max-width: 670px;
+    text-align: left;
+    font-size: 60px;
     color: #1a272d;
-    margin: 0px 120px 0px 120px;
+    margin-top: 0px;
   }
-  
-  div.agilex-vslam-line {
+
+  div.dobot-cr-line {
     height: 2px;
     background: #1a272d;
-    margin: 10px 400px 15px 120px;
+    margin: 10px 290px 15px 0px;
   }
-  
-  p.agilex-vslam-p {
+
+  p.dobot-cr-p {
+    max-width: 670px;
     text-align: justify;
-    margin: 0px 120px 20px 120px;
   }
-  
+
   /* TABLET */
   @media only screen and (max-width: 1024px) {
-    div.agilex-flex-container9 {
+    div.dobot-flex-container4 {
       flex-flow: wrap-reverse;
     }
-  
-    div.agilex-vslam-box1 {
-      margin-left: 0px;
+
+    div.dobot-cr-box1 {
       padding: 20px 100px 40px 100px;
     }
-  
-    img.agilex-vslam-img1 {
-      width: 700px;
+
+    iframe.dobot-cr-video {
+      width: 650px;
+      height: 340px;
     }
-  
-    div.agilex-vslam-box2 {
-      width: 951.3px;
-      padding: 40px 0px 0px 0px;
+
+    div.dobot-cr-box2 {
+      padding: 40px 100px 20px 100px;
     }
-  
-    h1.agilex-vslam-h1 {
-      font-size: 49px;
-      text-align: center;
-      margin: 0px 100px 0px 100px;
+
+    h1.dobot-cr-h1 {
+      text-align: left;
+      max-width: 100%;
     }
-  
-    div.agilex-vslam-line {
-      width: auto;
-      margin: 10px 420px 15px 100px;
+
+    div.dobot-cr-line {
+      margin: 10px 400px 15px 0px;
     }
-  
-    p.agilex-vslam-p {
+
+    p.dobot-cr-p {
       font-size: 15px;
-      margin: 0px 100px 0px 100px;
+      max-width: 100%;
+      margin-bottom: 0px;
     }
   }
-  
+
   /* MOBILE */
   @media only screen and (max-width: 736px) {
-    div.agilex-vslam-box1 {
-      margin-left: 0px;
-      padding: 10px 30px 30px 30px;
+    div.dobot-cr-box1 {
+      padding: 0px 30px 40px 30px;
     }
-  
-    div.agilex-vslam-box2 {
-      padding: 30px 0px 5px 0px;
+
+    iframe.dobot-cr-video {
+      width: 420px;
+      height: 220px;
     }
-  
-    h1.agilex-vslam-h1 {
-      font-size: 40px;
+
+    div.dobot-cr-box2 {
+      padding: 30px 30px 20px 30px;
+    }
+
+    h1.dobot-cr-h1 {
+      font-size: 45px;
       text-align: left;
-      margin: 0px 30px 0px 30px;
     }
-  
-    div.agilex-vslam-line {
-      width: auto;
-      margin: 5px 150px 15px 30px;
+
+    div.dobot-cr-line {
+      margin: 10px 200px 15px 0px;
     }
-  
-    p.agilex-vslam-p {
+
+    p.dobot-cr-p {
       font-size: 14px;
-      margin: 0px 30px 0px 30px;
     }
   }
 
@@ -1008,248 +1005,8 @@ figure.agilex-video2 {
     }
   }
   
-  /* AGILE-X DEVELOPMENT */
-  div.agilex-flex-container4 {
-    display: flex;
-    justify-content: center;
-    background: #e2f2fb;
-    margin-bottom: 10px;
-  }
-  
-  div.agilex-development-box1 {
-    padding: 60px 0px 40px 120px;
-  }
-  
-  ol#agilex-carousel-indicators1 {
-    left: 35px;
-    margin: 0px 100px 0px 100px;
-    top: 400px;
-  }
-  
-  img.agilex-development-img1 {
-    width: 700px;
-    height: 380px;
-    max-width: 100%;
-  }
-  
-  p.agilex-img1-text {
-    text-align: center;
-    margin-top: 20px;
-  }
-  
-  img.agilex-development-img2 {
-    width: 700px;
-    height: 380px;
-    max-width: 100%;
-  }
-  
-  p.agilex-img2-text {
-    text-align: center;
-    margin-top: 20px;
-  }
-  
-  img.agilex-development-img3 {
-    width: 700px;
-    height: 380px;
-    max-width: 100%;
-  }
-  
-  p.agilex-img3-text {
-    text-align: center;
-    margin-top: 20px;
-  }
-  
-  img.agilex-development-img4 {
-    width: 700px;
-    height: 380px;
-    max-width: 100%;
-  }
-  
-  p.agilex-img4-text {
-    text-align: center;
-    margin-top: 20px;
-  }
-  
-  div.agilex-development-box2 {
-    width: 951.3px;
-    padding: 100px 0px 60px 0px;
-  }
-  
-  h1.agilex-development-h1 {
-    color: #1a272d;
-    font-size: 62px;
-    margin: 0px 120px 0px 180px;
-  }
-  
-  div.agilex-development-line {
-    height: 2px;
-    background: #1a272d;
-    margin: 10px 370px 15px 180px;
-  }
-  
-  p.agilex-development-p {
-    text-align: justify;
-    margin: 0px 120px 20px 180px;
-  }
-  
-  /* Arrow edits */
-  #agilex-development-left-arrow {
-    top: 200px;
-  }
-  
-  #agilex-development-right-arrow {
-    top: 200px;
-  }
-  
-  i.arrow.left-2 {
-    transform: rotate(135deg);
-    -webkit-transform: rotate(135deg);
-  }
-  
-  i.arrow.right-2 {
-    transform: rotate(-45deg);
-    -webkit-transform: rotate(-45deg);
-  }
-  
-  /* TABLET */
-  @media only screen and (max-width: 1024px) {
-    div.agilex-flex-container4 {
-      flex-flow: wrap-reverse;
-    }
-  
-    div.agilex-development-box1 {
-      padding: 0px 100px 40px 100px;
-    }
-  
-    img.agilex-development-img1 {
-      width: 650px;
-      height: 340px;
-    }
-  
-    img.agilex-development-img2 {
-      width: 650px;
-      height: 340px;
-    }
-  
-    img.agilex-development-img3 {
-      width: 650px;
-      height: 340px;
-    }
-  
-    img.agilex-development-img4 {
-      width: 650px;
-      height: 340px;
-    }
-  
-    img.agilex-development-img5 {
-      width: 650px;
-      height: 340px;
-    }
-  
-    div.agilex-development-box2 {
-      padding: 40px 0px 15px 0px;
-    }
-  
-    h1.agilex-development-h1 {
-      margin: 0px 100px 0px 100px;
-    }
-  
-    div.agilex-development-line {
-      width: auto;
-      margin: 10px 495px 15px 100px;
-    }
-  
-    p.agilex-development-p {
-      margin: 0px 100px 10px 100px;
-    }
-  
-    ol#agilex-carousel-indicators1 {
-      top: 365px;
-    }
-  
-    /* Arrow edits */
-    #agilex-development-left-arrow {
-      top: 180px;
-    }
-  
-    #agilex-development-right-arrow {
-      top: 180px;
-    }
-  }
-  
-  /* MOBILE */
-  @media only screen and (max-width: 736px) {
-    div.agilex-development-box2 {
-      padding: 30px 0px 20px 0px;
-    }
-  
-    h1.agilex-development-h1 {
-      font-size: 42px;
-      margin: 0px 30px 0px 30px;
-    }
-  
-    div.agilex-development-line {
-      margin: 5px 155px 15px 30px;
-    }
-  
-    p.agilex-development-p {
-      margin: 0px 30px 0px 30px;
-    }
-  
-    div.agilex-development-box1 {
-      padding: 0px 50px 20px 50px;
-    }
-  
-    img.agilex-development-img1 {
-      width: 420px;
-      height: 200px;
-    }
-  
-    img.agilex-development-img2 {
-      width: 420px;
-      height: 200px;
-    }
-  
-    img.agilex-development-img3 {
-      width: 420px;
-      height: 200px;
-    }
-  
-    img.agilex-development-img4 {
-      width: 420px;
-      height: 200px;
-    }
-  
-    img.agilex-development-img5 {
-      width: 420px;
-      height: 200px;
-    }
-  
-    ol#agilex-carousel-indicators1 {
-      margin: 0px 30px 0px 30px;
-      top: 220px;
-      right: 35px;
-      left: 50px;
-    }
-  
-    /* can be found first in the xseries css mobile tutorial section */
-    .carousel-control .icon-prev,
-    .carousel-control .glyphicon-chevron-left {
-      left: 10px;
-    }
-  
-    /* Arrow edits */
-    #agilex-development-left-arrow {
-      top: 90px;
-    }
-  
-    #agilex-development-right-arrow {
-      top: 90px;
-    }
-  }
-  
-  /* AGILE-X KITS */
-  div.agilex-flex-container6 {
+   /* AGILE-X KITS */
+   div.agilex-flex-container6 {
     display: flex;
     justify-content: center;
     margin-bottom: 10px;
@@ -1362,30 +1119,172 @@ figure.agilex-video2 {
       margin: 0px 30px 0px 30px;
     }
   }
-  
-  /* AGILE-X MODELS */
-  /* Exclusive edits for carousel mobile   
-  div.agilex-flex-container10 {
-  flex-wrap: wrap-reverse;
-  }
-  
-  img#agilex-desktop-carousel {
-  display: none;
-  }
-  
-  img.agilex-models-img-2 {
-  display: block;
-  
-  width: 320px;
-  margin-right: 0px;
-  margin-left: 0px;
-  padding-top: 30px;
-  }
-  
-  div.agilex-carousel-info {
-  position: relative;
-  }
+
+/* SECTION 10 */
+div.unitree-flex-container10 {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0px 25px 0px;
+}
+
+div.unitree-sec10-box1 {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0px 40px 0px 40px;
+}
+
+/* Hides image
+div.unitree-sec10-box2 {
+margin: 0px 120px 0px 20px;
+} */
+
+h1.unitree-sec10-h1 {
+    font-size: 62px;
+    color: #1a272d;
+    margin: 0px 0px 0px 0px;
+}
+
+div.unitree-sec10-line {
+    height: 2px;
+    background: #1a272d;
+    margin: 10px 365px 20px 0px;
+}
+
+div.unitree-links-box {
+    display: flex;
+    flex-flow: column;
+    text-align: left;
+}
+
+a.unitree-specs-link-all {
+    margin-bottom: 5px;
+}
+
+table.unitree-specs-table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+/* Color of table */
+tr:nth-child(odd) {
+    background-color: #dddddd;
+}
+
+/* Responsive fix */
+@media only screen and (max-width: 1176px) {
+    div.unitree-flex-container10 {
+        flex-wrap: wrap;
+    }
+}
+
+/* TABLET */
+@media only screen and (max-width: 1024px) {
+    div.unitree-flex-container10 {
+        padding-bottom: 40px;
+        flex-flow: wrap;
+    }
+
+    div.unitree-sec10-box1 {
+        margin: 0px 40px 0px 40px;
+    }
+
+    h1.unitree-sec10-h1 {
+        font-size: 5vw;
+    }
+
+    div.unitree-sec10-line {
+        width: auto;
+        margin: 10px 500px 20px 0px;
+    }
+
+    a.unitree-specs-link-all {
+        font-size: 2vw;
+    }
+
+    a.unitree-specs-link2-all {
+        font-size: 2vw;
+    }
+
+    td,
+    th {
+        font-size: 15px;
+    }
+}
+
+/* MOBILE */
+@media only screen and (max-width: 736px) {
+    div.unitree-flex-container10 {
+        flex-wrap: wrap;
+        padding: 20px 0px 0px 0px;
+        margin-bottom: 20px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    div.unitree-sec10-box1 {
+        margin: 0px 0px 0px 0px;
+    }
+
+    td,
+    th {
+        font-size: 11px;
+        padding: 5px;
+        width: 100px;
+    }
+
+    /* Hides image
+  div.unitree-sec10-box2 {
+  margin: 0px 0px 0px 0px;
+} 
+
+  img.unitree-sec10-img {
+  padding-right: 20px;
+  padding-left: 20px;
+} */
+
+    h1.unitree-sec10-h1 {
+        font-size: 34px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    div.unitree-sec10-line {
+        margin: 5px 258px 15px 0px;
+    }
+
+    a.unitree-specs-link-all {
+        font-size: 10px;
+        margin: 5px 0px 0px 0px;
+    }
+
+    a.unitree-specs-link2-all {
+        font-size: 10px;
+    }
+
+    /* Hides image
+  img.unitree-sec10-img {
+  width: 450px;
+} */
+
+    /* Responsive fix */
+    @media only screen and (max-width: 1176px) {
+        div.unitree-flex-container10 {
+            flex-wrap: wrap;
+        }
+
+        /* Hides image
+    div.unitree-sec10-box2 {
+    margin: 0px 0px 0px 0px;
   } */
+    }
+}
   
   div.agilex-flex-container10 {
     display: flex;
