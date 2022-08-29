@@ -1,5 +1,5 @@
 /* LOCOBOT LANDING PAGE */
-/* LOCOBOT VIDEO */
+/* SECTION 1 */
 figure.agilex-video2 {
     display: none;
   }
@@ -15,7 +15,7 @@ figure.agilex-video2 {
     }
   }
   
-  /* AGILE-X POWERED */
+  /* SECTION 2 */
   div.agilex-flex-container2 {
     display: flex;
     justify-content: center;
@@ -29,7 +29,7 @@ figure.agilex-video2 {
   }
   
   div.agilex-powered-box2 {
-    padding: 60px 120px 60px 100px;
+    padding: 60px 120px 60px 50px;
   }
   
   iframe.agilex-powered-video {
@@ -41,7 +41,7 @@ figure.agilex-video2 {
   h1.agilex-powered-h1 {
     max-width: 670px;
     text-align: left;
-    font-size: 62px;
+    font-size: 48px;
     color: #1a272d;
     margin-top: 0px;
   }
@@ -124,7 +124,7 @@ figure.agilex-video2 {
     }
   }
   
-  /* AGILE-X SUPPORTS */
+  /* SECTION 3 */
   div.agilex-flex-container3 {
     display: flex;
     justify-content: center;
@@ -471,7 +471,7 @@ figure.agilex-video2 {
     }
   }
 
-  /* AGILE-X APPLICATION */
+  /* SECTION 5 */
   div.agilex-flex-container7 {
     display: flex;
     justify-content: center;
@@ -589,7 +589,7 @@ figure.agilex-video2 {
     }
   }
 
-  /* AGILE-X DRIVE */
+  /* SECTION 6 */
   h1.agilex-drive-title-h1 {
     font-size: 60px;
     text-align: center;
@@ -899,7 +899,7 @@ figure.agilex-video2 {
     }
   }
 
-   /* AGILE-X SOURCE */
+   /* SECTION 7 */
    div.agilex-flex-container5 {
     display: flex;
     justify-content: center;
@@ -1005,11 +1005,12 @@ figure.agilex-video2 {
     }
   }
   
-   /* AGILE-X KITS */
+   /* SECTION 8 */
    div.agilex-flex-container6 {
     display: flex;
     justify-content: center;
     margin-bottom: 10px;
+    background: #e2f2fb;
   }
   
   div.agilex-kits-box1 {
@@ -1120,7 +1121,7 @@ figure.agilex-video2 {
     }
   }
 
-/* SECTION 10 */
+/* SECTION 9 */
 div.unitree-flex-container10 {
     display: flex;
     justify-content: center;
@@ -1640,7 +1641,7 @@ tr:nth-child(odd) {
     }
   }
   
-  /* AGILE-X CONTACT */
+  /* SECTION 10 */
   div.agilex-contact-box11 {
     display: flex;
     margin-top: 40px;
