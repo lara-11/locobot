@@ -51,7 +51,7 @@ figure.locobot-video2 {
     padding: 60px 120px 60px 50px;
   }
   
-  iframe.agilex-powered-video {
+  iframe.locobot-sec2-video {
     width: 700px;
     height: 380px;
     max-width: 100%;
@@ -87,7 +87,7 @@ figure.locobot-video2 {
       margin: 0px 100px 0px 100px;
     }
   
-    iframe.agilex-powered-video {
+    iframe.locobot-sec2-video {
       width: 650px;
       height: 340px;
     }
@@ -118,121 +118,121 @@ figure.locobot-video2 {
       margin: 0px 30px 0px 30px;
     }
   
-    iframe.agilex-powered-video {
+    iframe.locobot-sec2-video {
       width: 420px;
       height: 220px;
     }
   }
   
   /* SECTION 3 */
-  div.agilex-flex-container3 {
+  div.locobot-container3 {
     display: flex;
     justify-content: center;
     margin-bottom: 10px;
   }
   
-  div.agilex-supports-box1 {
+  div.locobot-sec3-box1 {
     width: 450px;
     padding: 166px 0px 60px 0px;
     margin-left: 120px;
   }
   
-  h1.agilex-supports-title2-h1 {
+  h1.locobot-sec3-supports2-h1 {
     display: none;
   }
   
-  div.agilex-supports2-line {
+  div.locobot-sec3-line2 {
     display: none;
     height: 2px;
     background: #1a272d;
     margin: 15px 50px 35px 50px;
   }
   
-  figure.agilex-support-container1 {
+  figure.locobot-sec3-img1 {
     text-align: center;
     margin: 0px 40px 0px 40px;
   }
   
-  img.agilex-supports-ros {
+  img.locobot-img-src1 {
     width: 200px;
   }
   
-  h1.agilex-supports1-h1 {
+  h1.locobot-sec3-left-h1 {
     font-size: 20px;
     text-align: center;
     color: #1a272d;
     margin: 15px 40px 10px 40px;
   }
   
-  p.agilex-supports1-p {
+  p.locobot-sec3-left-p {
     font-size: 14.5px;
     text-align: center;
     margin: 0px 40px 0px 40px;
   }
   
-  div.agilex-supports-box2 {
+  div.locobot-sec3-box2 {
     width: 450px;
     padding: 40px 0px 60px 0px;
   }
   
-  h1.agilex-supports-title-h1 {
+  h1.locobot-sec3-supports1-h1 {
     font-size: 60px;
     text-align: center;
     color: #1a272d;
     margin: 0px 0px 0px 0px;
   }
   
-  div.agilex-supports-line {
+  div.locobot-sec3-line {
     height: 2px;
     background: #1a272d;
     margin: 15px 50px 35px 50px;
   }
   
-  figure.agile-supports-container2 {
+  figure.locobot-sec3-img2 {
     text-align: center;
     margin: 42px 40px 0px 40px;
   }
   
-  img.agile-supports-can {
+  img.locobot-img-scr2 {
     height: 55px;
   }
   
-  h1.agilex-supports2-h1 {
+  h1.locobot-sec3-middle-h1 {
     text-align: center;
     font-size: 20px;
     color: #1a272d;
     margin: 15px 40px 10px 40px;
   }
   
-  p.agilex-supports2-p {
+  p.locobot-sec3-middle-p {
     font-size: 14.5px;
     text-align: center;
     margin: 0px 40px 0px 40px;
   }
   
-  div.agilex-supports-box3 {
+  div.locobot-sec3-box3 {
     width: 450px;
     padding: 169px 0px 60px 0px;
     margin-right: 120px;
   }
   
-  figure.agilex-supports-container3 {
+  figure.locobot-sec3-img3 {
     text-align: center;
     margin: 0px 40px 0px 40px;
   }
   
-  img.agile-supports-gazebo {
+  img.locobot-img-scr3 {
     width: 200px;
   }
   
-  h1.agilex-supports3-h1 {
+  h1.locobot-sec3-right-h1 {
     text-align: center;
     font-size: 20px;
     color: #1a272d;
     margin: 15px 40px 10px 40px;
   }
   
-  p.agilex-supports3-p {
+  p.locobot-sec3-right-p {
     font-size: 14.5px;
     text-align: center;
     margin: 0px 40px 0px 40px;
@@ -240,65 +240,65 @@ figure.locobot-video2 {
   
   /* TABLET */
   @media only screen and (max-width: 1024px) {
-    div.agilex-supports-box1 {
+    div.locobot-sec3-box1 {
       padding: 131px 0px 40px 0px;
       margin: 0px 0px 0px 80px;
     }
   
-    figure.agilex-support-container1 {
+    figure.locobot-sec3-img1 {
       margin: 0px 0px 0px 0px;
     }
   
-    h1.agilex-supports1-h1 {
+    h1.locobot-sec3-left-h1 {
       margin: 15px 0px 10px 0px;
     }
   
-    p.agilex-supports1-p {
+    p.locobot-sec3-left-p {
       font-size: 13.5px;
       margin: 0px 0px 0px 0px;
     }
   
-    h1.agilex-supports-title-h1 {
+    h1.locobot-sec3-supports1-h1 {
       font-size: 5vw;
       margin-top: 0px;
     }
   
-    div.agilex-supports-line {
+    div.locobot-sec3-line {
       margin: 15px 0px 35px 0px;
     }
   
-    div.agilex-supports-box2 {
+    div.locobot-sec3-box2 {
       margin: 0px 25px 0px 25px;
       padding: 30px 0px 40px 0px;
     }
   
-    figure.agile-supports-container2 {
+    figure.locobot-sec3-img2 {
       margin: 0px 0px 0px 0px;
     }
   
-    h1.agilex-supports2-h1 {
+    h1.locobot-sec3-middle-h1 {
       margin: 15px 0px 10px 0px;
     }
   
-    p.agilex-supports2-p {
+    p.locobot-sec3-middle-p {
       font-size: 13.5px;
       margin: 0px 0px 0px 0px;
     }
   
-    div.agilex-supports-box3 {
+    div.locobot-sec3-box3 {
       margin-right: 80px;
       padding: 134px 0px 40px 0px;
     }
   
-    figure.agilex-supports-container3 {
+    figure.locobot-sec3-img3 {
       margin: 0px 0px 0px 0px;
     }
   
-    h1.agilex-supports3-h1 {
+    h1.locobot-sec3-right-h1 {
       margin: 15px 0px 10px 0px;
     }
   
-    p.agilex-supports3-p {
+    p.locobot-sec3-right-p {
       font-size: 13.5px;
       margin: 0px 0px 0px 0px;
     }
@@ -306,89 +306,89 @@ figure.locobot-video2 {
   
   /* MOBILE */
   @media only screen and (max-width: 736px) {
-    div.agilex-flex-container3 {
+    div.locobot-container3 {
       display: block;
       justify-content: center;
       margin-bottom: 10px;
     }
   
-    div.agilex-supports-box1 {
+    div.locobot-sec3-box1 {
       width: auto;
       margin: 0px 30px 0px 30px;
       padding: 20px 0px 20px 0px;
     }
   
-    p.agilex-supports1-p {
+    p.locobot-sec3-left-p {
       font-size: 14px;
       margin: 0px 0px 0px 0px;
     }
   
-    div.agilex-supports-box2 {
+    div.locobot-sec3-box2 {
       width: auto;
       margin: 0px 30px 0px 30px;
       padding: 0px 0px 20px 0px;
     }
   
-    p.agilex-supports2-p {
+    p.locobot-sec3-middle-p {
       font-size: 14px;
       margin: 0px 0px 0px 0px;
     }
   
-    div.agilex-supports-box3 {
+    div.locobot-sec3-box3 {
       width: auto;
       margin: 0px 30px 0px 30px;
       padding: 0px 0px 30px 0px;
     }
   
-    p.agilex-supports3-p {
+    p.locobot-sec3-right-p {
       font-size: 14px;
       margin: 0px 0px 0px 0px;
     }
   
-    h1.agilex-supports-title-h1 {
+    h1.locobot-sec3-supports1-h1 {
       display: none;
     }
   
-    div.agilex-supports-line {
+    div.locobot-sec3-line {
       display: none;
     }
   
-    h1.agilex-supports-title2-h1 {
+    h1.locobot-sec3-supports2-h1 {
       display: block;
       text-align: center;
       font-size: 45px;
       margin: 0px 0px 0px 0px;
     }
   
-    div.agilex-supports2-line {
+    div.locobot-sec3-line2 {
       display: block;
       margin: 10px 70px 25px 70px;
     }
   }
   
    /* SECTION 4 */
-   div.dobot-flex-container4 {
+   div.locobot-container4 {
     display: flex;
     justify-content: center;
     background: #e2f2fb;
     margin-bottom: 10px;
   }
 
-  div.dobot-cr-box1 {
+  div.locobot-sec4-box1 {
     padding: 60px 50px 60px 120px;
   }
 
-  iframe.dobot-cr-video {
+  iframe.locobot-sec4-video {
     width: 700px;
     height: 380px;
     max-width: 100%;
   }
 
-  div.dobot-cr-box2 {
+  div.locobot-sec4-box2 {
     padding: 100px 120px 60px 50px;
   }
 
-  h1.dobot-cr-h1 {
+  h1.locobot-sec4-h1 {
     max-width: 670px;
     text-align: left;
     font-size: 60px;
@@ -396,46 +396,46 @@ figure.locobot-video2 {
     margin-top: 0px;
   }
 
-  div.dobot-cr-line {
+  div.locobot-sec4-line {
     height: 2px;
     background: #1a272d;
     margin: 10px 290px 15px 0px;
   }
 
-  p.dobot-cr-p {
+  p.locobot-sec4-p {
     max-width: 670px;
     text-align: justify;
   }
 
   /* TABLET */
   @media only screen and (max-width: 1024px) {
-    div.dobot-flex-container4 {
+    div.locobot-container4 {
       flex-flow: wrap-reverse;
     }
 
-    div.dobot-cr-box1 {
+    div.locobot-sec4-box1 {
       padding: 20px 100px 40px 100px;
     }
 
-    iframe.dobot-cr-video {
+    iframe.locobot-sec4-video {
       width: 650px;
       height: 340px;
     }
 
-    div.dobot-cr-box2 {
+    div.locobot-sec4-box2 {
       padding: 40px 100px 20px 100px;
     }
 
-    h1.dobot-cr-h1 {
+    h1.locobot-sec4-h1 {
       text-align: left;
       max-width: 100%;
     }
 
-    div.dobot-cr-line {
+    div.locobot-sec4-line {
       margin: 10px 400px 15px 0px;
     }
 
-    p.dobot-cr-p {
+    p.locobot-sec4-p {
       font-size: 15px;
       max-width: 100%;
       margin-bottom: 0px;
@@ -444,147 +444,147 @@ figure.locobot-video2 {
 
   /* MOBILE */
   @media only screen and (max-width: 736px) {
-    div.dobot-cr-box1 {
+    div.locobot-sec4-box1 {
       padding: 0px 30px 40px 30px;
     }
 
-    iframe.dobot-cr-video {
+    iframe.locobot-sec4-video {
       width: 420px;
       height: 220px;
     }
 
-    div.dobot-cr-box2 {
+    div.locobot-sec4-box2 {
       padding: 30px 30px 20px 30px;
     }
 
-    h1.dobot-cr-h1 {
+    h1.locobot-sec4-h1 {
       font-size: 45px;
       text-align: left;
     }
 
-    div.dobot-cr-line {
+    div.locobot-sec4-line {
       margin: 10px 200px 15px 0px;
     }
 
-    p.dobot-cr-p {
+    p.locobot-sec4-p {
       font-size: 14px;
     }
   }
 
   /* SECTION 5 */
-  div.agilex-flex-container7 {
+  div.locobot-container5 {
     display: flex;
     justify-content: center;
     background: #ededed;
     margin-bottom: 10px;
   }
   
-  div.agilex-application-box1 {
+  div.locobot-sec5-box1 {
     width: 951.3px;
     padding: 80px 50px 80px 120px;
   }
   
-  div.agilex-application-box2 {
-    width: 538px;
-    margin-right: 120px;
-    padding: 30px 0px 30px 0px;
-  }
-  
-  img.agilex-application-img {
-    width: 100%;
-  }
-  
-  h1.agilex-application-h1 {
+  h1.locobot-sec5-h1 {
     max-width: 670px;
     text-align: left;
     font-size: 62px;
     color: #1a272d;
     margin-top: 0px;
   }
-  
-  div.agilex-application-line {
+
+  div.locobot-sec5-line {
     height: 2px;
     background: #1a272d;
     margin: 10px 290px 15px 0px;
   }
-  
-  p.agile-application-p {
+
+  p.locobot-sec5-p {
     max-width: 670px;
     text-align: justify;
     margin-bottom: 20px;
   }
-  
-  a.agilex-application-link {
+
+  a.locobot-sec5-link {
     margin: 0px 120px 0px 0px;
+  }
+
+  div.locobot-sec5-box2 {
+    width: 538px;
+    margin-right: 120px;
+    padding: 30px 0px 30px 0px;
+  }
+  
+  img.locobot-sec5-img-src {
+    width: 100%;
   }
   
   /* TABLET */
   @media only screen and (max-width: 1024px) {
-    div.agilex-flex-container7 {
+    div.locobot-container5 {
       flex-flow: wrap;
     }
   
-    div.agilex-application-box1 {
+    div.locobot-sec5-box1 {
       padding: 40px 0px 20px 0px;
     }
   
-    img.agilex-application-img {
+    img.locobot-sec5-img-src {
       width: 700px;
     }
   
-    div.agilex-application-box2 {
+    div.locobot-sec5-box2 {
       margin: 0px 100px 0px 100px;
       padding: 0px 0px 30px 0px;
     }
   
-    h1.agilex-application-h1 {
+    h1.locobot-sec5-h1 {
       text-align: left;
       max-width: 100%;
       margin: 0px 100px 5px 100px;
     }
   
-    div.agilex-application-line {
+    div.locobot-sec5-line {
       margin: 10px 400px 15px 100px;
     }
   
-    p.agile-application-p {
+    p.locobot-sec5-p {
       font-size: 15px;
       max-width: 100%;
       margin: 0px 100px 10px 100px;
     }
   
-    a.agilex-application-link {
+    a.locobot-sec5-link {
       margin: 0px 100px 0px 100px;
     }
   }
   
   /* MOBILE */
   @media only screen and (max-width: 736px) {
-    div.agilex-application-box1 {
+    div.locobot-sec5-box1 {
       padding: 30px 0px 20px 0px;
     }
   
-    div.agilex-application-box2 {
+    div.locobot-sec5-box2 {
       margin: 0px 30px 0px 30px;
       padding: 0px 0px 20px 0px;
     }
   
-    h1.agilex-application-h1 {
+    h1.locobot-sec5-h1 {
       font-size: 7.8vw;
       text-align: left;
       margin: 0px 30px 10px 30px;
     }
   
-    div.agilex-application-line {
+    div.locobot-sec5-line {
       margin: 10px 200px 15px 30px;
     }
   
-    p.agile-application-p {
+    p.locobot-sec5-p {
       font-size: 14px;
       margin: 0px 30px 10px 30px;
     }
   
-    a.agilex-application-link {
+    a.locobot-sec5-link {
       margin: 0px 30px 0px 30px;
     }
   }
