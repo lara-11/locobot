@@ -355,44 +355,42 @@
   </div>
 
   <!--SECTION 10-->
-  <div class="agilex-contact-box11">
-    <div class="agilex-contact-left-wrap">
+  <div class="locobot-container10">
+    <div class="locobot-contact-left-wrap">
       <figure class="contact-img">
         <!--No edits-->
-        <img src="/Shared/Agilex/agilexcontact.png" class="agilex-contact-banner" data-image="0">
+        <img src="/Shared/Agilex/agilexcontact.png" class="locobot-contact-banner" data-image="0">
       </figure>
 
       <div class="contact-info">
         <!--No edits-->
-        <h1 class="agilex-contact-questions">Have questions?</h1>
-        <div class="agilex-contact-line"></div>
-        <p class="questions-text">
-          Give us a call: <a href="tel:866-478-3731"><b>866-478-3731</b></a>
-        </p>
-        <p class="questions-text">
-          or fill out the form and one of our experts will be happy to follow
-          up!
-        </p>
+        <h1 class="locobot-sec10-h1">Have questions?</h1>
+
+        <div class="locobot-sec10-line"></div>
+
+        <p>Give us a call: <a href="tel:866-478-3731"><b>866-478-3731</b></a></p>
+
+        <p>or fill out the form and one of our experts will be happy to follow
+          up!</p>
       </div>
     </div>
 
-    <div class="contact-container">
+    <div>
       <!--No edits-->
-      <h1 class="contact-title">Speak with a Roboticist</h1>
+      <h1>Speak with a Roboticist</h1>
       <!--No edits-->
 
       <!--This is the contact form-->
-      $$CONTACTFORM12805$$
+      $$CONTACTFORM13531$$
     </div>
 
-    <!--THERE WILL BE A BLACK BOX HERE-->
-    <!--<div class="black-box"></div>-->
-    <figure class="agilex-secondimg-background">
-      <img src="/Shared/Agilex/agilex_contact_square.png" class="agilex-contact-img2" data-image="0">
+    <!--Right Image-->
+    <figure>
+      <img src="/Shared/Agilex/agilex_contact_square.png" class="locobot-contact-img2" data-image="0">
     </figure>
   </div>
 
-  <div class="agilex-contact-box2"></div>
+  <div class="locobot-sec10-box2"></div>
 </div>
 
 <style>
@@ -1712,40 +1710,41 @@ tr:nth-child(odd) {
 }
 
 /* SECTION 10 */
-div.agilex-contact-box11 {
+div.locobot-container10 {
   display: flex;
   margin-top: 40px;
   justify-content: center;
   background: #ededed;
 }
 
-div.agilex-contact-left-wrap {
+div.locobot-contact-left-wrap {
   flex-wrap: wrap;
   width: 1100px;
   background: #ededed;
 }
 
-h1.agilex-contact-questions {
+h1.locobot-sec10-h1 {
   font-size: 3.5vw;
   color: #1a272d;
 }
 
-div.agilex-contact-line {
+div.locobot-sec10-line {
   height: 2px;
   background: #1a272d;
   margin: 10px 215px 15px 0px;
 }
 
-div.agilex-contact-box2 {
+img.locobot-contact-img2 {
+  transform: scaleX(-1);
+  width: 408px;
+}
+
+div.locobot-sec10-box2 {
   width: 100%;
   height: 50px;
   background: #ededed;
 }
 
-img.agilex-contact-img2 {
-  transform: scaleX(-1);
-  width: 408px;
-}
 
 /* Contact form field edits */
 /* This centers the form inside of elements when resizing */
@@ -1754,17 +1753,17 @@ div.con-form-wrap {
   justify-content: center;
 }
 
-div#ctl45_dvControl {
+div#ctl46_dvControl {
   margin-top: 0px;
 }
 
 /* Edits the text area for the contact form */
-input#ctl45_ctlContactForm_rpFormField_ctl00_txtField,
-input#ctl45_ctlContactForm_rpFormField_ctl01_txtField,
-input#ctl45_ctlContactForm_rpFormField_ctl02_txtField,
-input#ctl45_ctlContactForm_rpFormField_ctl03_txtField,
-input#ctl45_ctlContactForm_rpFormField_ctl04_txtField,
-input#ctl45_ctlContactForm_rpFormField_ctl05_txtField {
+input#ctl46_ctlContactForm_rpFormField_ctl00_txtField,
+input#ctl46_ctlContactForm_rpFormField_ctl01_txtField,
+input#ctl46_ctlContactForm_rpFormField_ctl02_txtField,
+input#ctl46_ctlContactForm_rpFormField_ctl03_txtField,
+input#ctl46_ctlContactForm_rpFormField_ctl04_txtField,
+input#ctl46_ctlContactForm_rpFormField_ctl05_txtField {
   width: 100%;
   padding: 12px;
   border: 1px solid #333333;
@@ -1776,22 +1775,22 @@ input#ctl45_ctlContactForm_rpFormField_ctl05_txtField {
 }
 
 /* Color of border on hover */
-input#ctl45_ctlContactForm_rpFormField_ctl00_txtField:hover,
-input#ctl45_ctlContactForm_rpFormField_ctl01_txtField:hover,
-input#ctl45_ctlContactForm_rpFormField_ctl02_txtField:hover,
-input#ctl45_ctlContactForm_rpFormField_ctl03_txtField:hover,
-input#ctl45_ctlContactForm_rpFormField_ctl04_txtField:hover,
-input#ctl45_ctlContactForm_rpFormField_ctl05_txtField:hover {
+input#ctl46_ctlContactForm_rpFormField_ctl00_txtField:hover,
+input#ctl46_ctlContactForm_rpFormField_ctl01_txtField:hover,
+input#ctl46_ctlContactForm_rpFormField_ctl02_txtField:hover,
+input#ctl46_ctlContactForm_rpFormField_ctl03_txtField:hover,
+input#ctl46_ctlContactForm_rpFormField_ctl04_txtField:hover,
+input#ctl46_ctlContactForm_rpFormField_ctl05_txtField:hover {
   border: 1px solid #007cc4;
 }
 
 /* Makes message box longer */
-input#ctl45_ctlContactForm_rpFormField_ctl05_txtField {
+input#ctl46_ctlContactForm_rpFormField_ctl05_txtField {
   padding-bottom: 120px;
 }
 
 /* Style the submit button with a specific background color etc */
-input#ctl45_ctlContactForm_btnSubmit {
+input#ctl46_ctlContactForm_btnSubmit {
   background-color: #007cc4;
   color: white;
   padding: 15px 50px;
@@ -1801,17 +1800,17 @@ input#ctl45_ctlContactForm_btnSubmit {
 }
 
 /* When moving the mouse over the submit button, add a darker green color */
-input#ctl45_ctlContactForm_btnSubmit:hover {
+input#ctl46_ctlContactForm_btnSubmit:hover {
   background-color: white;
   color: #007cc4;
 }
 
 /* Closes gap between title text & name section */
-div#ctl45_dvControl.Control.ContactForm.Control_12777 {
+div#ctl46_dvControl.Control.ContactForm.Control_12777 {
   margin-top: 0px;
 }
 
-input#ctl45_ctlContactForm_rpFormField_ctl06_rblFields_1 {
+input#ctl46_ctlContactForm_rpFormField_ctl06_rblFields_1 {
   margin-left: 15px;
 }
 
@@ -1821,11 +1820,11 @@ figure.agilex-secondimg-background {
 
 /* DESKTOP */
 @media only screen and (max-width: 2565px) {
-  div.agilex-contact-left-wrap {
+  div.locobot-contact-left-wrap {
     width: auto;
   }
 
-  img.agilex-contact-banner {
+  img.locobot-contact-banner {
     width: 1430px;
   }
 
@@ -1837,35 +1836,35 @@ figure.agilex-secondimg-background {
     width: 530px;
   }
 
-  img.agilex-contact-img2 {
+  img.locobot-contact-img2 {
     width: 100%;
   }
 }
 
 /* TABLET */
 @media only screen and (max-width: 1024px) {
-  div.agilex-contact-box11 {
+  div.locobot-container10 {
     flex-flow: wrap;
     justify-content: center;
     margin-top: 0px;
   }
 
-  h1.agilex-contact-questions {
+  h1.locobot-sec10-h1 {
     font-size: 60px;
   }
 
-  div.agilex-contact-line {
+  div.locobot-sec10-line {
     margin: 10px 326px 15px 0px;
   }
 
-  img.agilex-contact-img2 {
+  img.locobot-contact-img2 {
     display: none;
   }
 }
 
 /* MOBILE */
 @media only screen and (max-width: 736px) {
-  div.agilex-contact-box11 {
+  div.locobot-container10 {
     flex-flow: wrap;
     margin-bottom: 0PX;
   }
@@ -1874,21 +1873,21 @@ figure.agilex-secondimg-background {
     padding: 35px 30px 30px 30px;
   }
 
-  h1.agilex-contact-questions {
+  h1.locobot-sec10-h1 {
     font-size: 44px;
     margin-top: 0px;
   }
 
-  div.agilex-contact-line {
+  div.locobot-sec10-line {
     margin: 10px 165px 15px 0px;
   }
 
-  input#ctl45_ctlContactForm_rpFormField_ctl00_txtField,
-  input#ctl45_ctlContactForm_rpFormField_ctl01_txtField,
-  input#ctl45_ctlContactForm_rpFormField_ctl02_txtField,
-  input#ctl45_ctlContactForm_rpFormField_ctl03_txtField,
-  input#ctl45_ctlContactForm_rpFormField_ctl04_txtField,
-  input#ctl45_ctlContactForm_rpFormField_ctl05_txtField {
+  input#ctl46_ctlContactForm_rpFormField_ctl00_txtField,
+  input#ctl46_ctlContactForm_rpFormField_ctl01_txtField,
+  input#ctl46_ctlContactForm_rpFormField_ctl02_txtField,
+  input#ctl46_ctlContactForm_rpFormField_ctl03_txtField,
+  input#ctl46_ctlContactForm_rpFormField_ctl04_txtField,
+  input#ctl46_ctlContactForm_rpFormField_ctl05_txtField {
     padding: 10px;
     margin-top: 1px;
     margin-bottom: 0px;
