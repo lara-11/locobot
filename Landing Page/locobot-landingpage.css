@@ -621,7 +621,8 @@ figure.locobot-sec6-img1 {
 }
 
 img.locobot-sec6-img-src1 {
-  width: 200px;
+  width: 250px;
+  transform: scaleX(-1);
 }
 
 h1.locobot-sec6-l1-h1 {
@@ -649,7 +650,7 @@ figure.locobot-sec6-img2 {
 
 img.locobot-sec6-img-src2 {
   /* transform: scaleX(-1); */
-  width: 200px;
+  width: 250px;
 }
 
 h1.locobot-sec6-l2-h1 {
@@ -676,7 +677,7 @@ figure.locobot-sec6-img3 {
 }
 
 img.locobot-sec6-img-src3 {
-  width: 200px;
+  width: 250px;
 }
 
 h1.locobot-sec6-r1-h1 {
@@ -705,7 +706,7 @@ figure.locobot-sec6-img4 {
 
 img.locobot-sec6-img-src4 {
   transform: scaleX(-1);
-  width: 200px;
+  width: 250px;
 }
 
 h1.locobot-sec6-r2-h1 {
@@ -1257,25 +1258,25 @@ tr:nth-child(odd) {
 }
 
 /* SECTION 10 */
-div.unitree-flex-container11 {
+div.locobot-container10 {
   display: flex;
   margin-top: 40px;
   justify-content: center;
   background: #ededed;
 }
 
-div.unitree-contact-left-wrap {
+div.locobot-left-wrap {
   flex-wrap: wrap;
   width: 1100px;
   background: #ededed;
 }
 
-h1.unitree-contact-questions {
+h1.locobot-questions {
   font-size: 3.5vw;
   color: #1a272d;
 }
 
-div.unitree-contact-line {
+div.locobot-line {
   height: 2px;
   background: #1a272d;
   margin: 10px 215px 15px 0px;
@@ -1361,11 +1362,11 @@ figure.unitree-secondimg-background {
 
 /* DESKTOP */
 @media only screen and (max-width: 2565px) {
-  div.unitree-contact-left-wrap {
+  div.locobot-left-wrap {
     width: auto;
   }
 
-  img.unitree-contact-banner {
+  img.locobot-banner {
     width: 1430px;
   }
 
@@ -1384,17 +1385,17 @@ figure.unitree-secondimg-background {
 
 /* TABLET */
 @media only screen and (max-width: 1024px) {
-  div.unitree-flex-container11 {
+  div.locobot-container10 {
     flex-flow: wrap;
     justify-content: center;
     margin-top: 0px;
   }
 
-  h1.unitree-contact-questions {
+  h1.locobot-questions {
     font-size: 60px;
   }
 
-  div.unitree-contact-line {
+  div.locobot-line {
     margin: 10px 326px 15px 0px;
   }
 
@@ -1405,7 +1406,7 @@ figure.unitree-secondimg-background {
 
 /* MOBILE */
 @media only screen and (max-width: 736px) {
-  div.unitree-flex-container11 {
+  div.locobot-container10 {
     flex-flow: wrap;
     margin-bottom: 0PX;
   }
@@ -1414,12 +1415,12 @@ figure.unitree-secondimg-background {
     padding: 35px 30px 30px 30px;
   }
 
-  h1.unitree-contact-questions {
+  h1.locobot-questions {
     font-size: 44px;
     margin-top: 0px;
   }
 
-  div.unitree-contact-line {
+  div.locobot-line {
     margin: 10px 165px 15px 0px;
   }
 
