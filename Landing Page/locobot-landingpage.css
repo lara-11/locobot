@@ -375,6 +375,7 @@ div.locobot-container4 {
 }
 
 div.locobot-sec4-box1 {
+  width: 951.3px;
   padding: 60px 50px 60px 120px;
 }
 
@@ -405,6 +406,10 @@ div.locobot-sec4-line {
 p.locobot-sec4-p {
   max-width: 670px;
   text-align: justify;
+}
+
+img.locobot-sec4-img-src {
+  width: 95%;
 }
 
 /* TABLET */
@@ -487,7 +492,7 @@ div.locobot-sec5-box1 {
 h1.locobot-sec5-h1 {
   max-width: 670px;
   text-align: left;
-  font-size: 62px;
+  font-size: 64px;
   color: #1a272d;
   margin-top: 0px;
 }
@@ -509,9 +514,10 @@ a.locobot-sec5-link {
 }
 
 div.locobot-sec5-box2 {
-  width: 538px;
+  width: 555px;
+  margin-left: 100px;
   margin-right: 120px;
-  padding: 30px 0px 30px 0px;
+  padding: 80px 0px 60px 0px;
 }
 
 img.locobot-sec5-img-src {
@@ -603,6 +609,12 @@ div.locobot-sec6-line {
   margin: 15px 740px 10px 740px;
 }
 
+p.locobot-sec6-top-middle-p {
+  font-size: 14.5px;
+  text-align: center;
+  margin: 0px 40px 0px 40px;
+}
+
 div.locobot-container6 {
   display: flex;
   justify-content: center;
@@ -617,7 +629,7 @@ div.locobot-sec6-box1 {
 
 figure.locobot-sec6-img1 {
   text-align: center;
-  margin: 0px 40px 0px 40px;
+  margin: 0px 40px 20px 40px;
 }
 
 img.locobot-sec6-img-src1 {
@@ -645,7 +657,7 @@ div.locobot-sec6-box2 {
 
 figure.locobot-sec6-img2 {
   text-align: center;
-  margin: 0px 40px 0px 40px;
+  margin: 0px 40px 20px 40px;
 }
 
 img.locobot-sec6-img-src2 {
@@ -673,7 +685,7 @@ div.locobot-sec6-box3 {
 
 figure.locobot-sec6-img3 {
   text-align: center;
-  margin: 0px 40px 0px 40px;
+  margin: 0px 40px 20px 40px;
 }
 
 img.locobot-sec6-img-src3 {
@@ -701,7 +713,7 @@ div.locobot-sec6-box4 {
 
 figure.locobot-sec6-img4 {
   text-align: center;
-  margin: 0px 40px 0px 40px;
+  margin: 0px 40px 20px 40px;
 }
 
 img.locobot-sec6-img-src4 {
