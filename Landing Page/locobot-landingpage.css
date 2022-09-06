@@ -920,7 +920,7 @@ div.locobot-container7 {
 }
 
 div.locobot-sec7-box1 {
-    padding: 105px 0px 60px 0px;
+    padding: 40px 0px 20px 0px;
 }
 
 h1.locobot-sec7-h1 {
@@ -954,20 +954,19 @@ div.locobot-sec7-box2 {
     display: flex;
     justify-content: center;
     padding-bottom: 60px;
-    padding-top: 60px;
 }
 
-/* div.laptop-flex {
+ div.laptop-flex {
     display: flex;
-    flex-flow: wrap;
+    flex-flow: column;
     justify-content: center;
-} */
+} 
 
-/* div.laptop-flex2 {
+ div.laptop-flex2 {
     display: flex;
-    flex-flow: wrap;
+    flex-flow: column;
     justify-content: center;
-} */
+} 
 
 figure.laptop-size {
     max-width: 520px;
@@ -1048,7 +1047,7 @@ div.locobot-container8 {
 
 div.locobot-sec8-box1 {
     margin-left: 120px;
-    padding: 20px 0px 20px 0px;
+    padding-top: 40px;
 }
 
 figure.locobot-sec8-img {
