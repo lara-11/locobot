@@ -408,8 +408,9 @@ p.locobot-sec4-p {
     text-align: justify;
 }
 
-img.locobot-sec4-img-src {
+video.locobot-sec4-img-src {
     width: 95%;
+    height: 383px;
 }
 
 /* TABLET */
