@@ -57,10 +57,35 @@
    max-width: 100%;
  }
 
+  /* RESPONSIVE */
+  @media only screen and (max-width: 1250px) {
+    div.locobot-container2 {
+      flex-flow: wrap;
+      padding: 40px 80px 20px 80px;
+    }
+
+    div.locobot-sec2-box1 {
+        padding: 40px 80px 20px 80px;
+      }
+
+      h1.locobot-sec2-h1 {
+        max-width: 100%;
+      }
+
+      p.locobot-sec2-p {
+        max-width: 100%;
+      }
+
+      div.locobot-sec2-box2 {
+        padding: 20px 50px 60px 50px;
+      }
+  }
+
  /* TABLET */
  @media only screen and (max-width: 1024px) {
    div.locobot-container2 {
-     flex-flow: wrap;
+    flex-flow: wrap;
+    padding: 40px 0px 20px 0px;
    }
 
    div.locobot-sec2-box1 {
@@ -95,6 +120,10 @@
 
  /* MOBILE */
  @media only screen and (max-width: 736px) {
+    div.locobot-container2 {
+        padding-top: 0px;
+     }
+
    div.locobot-sec2-box1 {
      padding: 30px 0px 20px 0px;
    }
@@ -194,7 +223,7 @@
  }
 
  img.locobot-img-scr2 {
-   height: 55px;
+   width: 200px;
  }
 
  h1.locobot-sec3-middle-h1 {
@@ -412,6 +441,31 @@
    width: 90%;
  }
 
+   /* RESPONSIVE */
+   @media only screen and (max-width: 1250px) {
+    div.locobot-container4 {
+        flex-flow: wrap-reverse;
+    }
+
+    div.locobot-sec4-box2 {
+    width: 951.3px;
+    padding: 40px 50px 20px 50px;
+    }
+
+    div.locobot-sec4-box1 {
+    text-align: center;
+    padding: 20px 80px 60px 80px;
+    }
+
+    h1.locobot-sec4-h1 {
+        max-width: 100%;
+    }
+
+    p.locobot-sec4-p {
+        max-width: 100%;
+    }
+}
+
  /* TABLET */
  @media only screen and (max-width: 1024px) {
    div.locobot-container4 {
@@ -438,6 +492,7 @@
    h1.locobot-sec4-h1 {
      text-align: left;
      max-width: 100%;
+     font-size: 51px;
    }
 
    div.locobot-sec4-line {
@@ -467,7 +522,7 @@
    }
 
    h1.locobot-sec4-h1 {
-     font-size: 45px;
+     font-size: 42px;
      text-align: left;
    }
 
@@ -527,6 +582,13 @@
  img.locobot-sec5-img-src {
    width: 100%;
  }
+
+    /* RESPONSIVE */
+    @media only screen and (max-width: 1250px) {
+        div.locobot-container5 {
+            flex-flow: wrap;
+        }
+    }
 
  /* TABLET */
  @media only screen and (max-width: 1024px) {
