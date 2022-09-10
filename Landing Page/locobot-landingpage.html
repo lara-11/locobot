@@ -493,7 +493,7 @@
 
 
 <style>
-  /* LOCOBOT LANDING PAGE */
+ /* LOCOBOT LANDING PAGE */
  /* SECTION 1 */
  figure.locobot-video2 {
    display: none;
@@ -579,7 +579,8 @@
  /* TABLET */
  @media only screen and (max-width: 1024px) {
    div.locobot-container2 {
-      padding: 40px 0px 20px 0px;
+    flex-flow: wrap;
+    padding: 40px 0px 20px 0px;
    }
 
    div.locobot-sec2-box1 {
@@ -615,8 +616,8 @@
  /* MOBILE */
  @media only screen and (max-width: 736px) {
     div.locobot-container2 {
-      padding-top: 0px;
-   }
+        padding-top: 0px;
+     }
 
    div.locobot-sec2-box1 {
      padding: 30px 0px 20px 0px;
@@ -717,7 +718,7 @@
  }
 
  img.locobot-img-scr2 {
-    width: 200px;
+   width: 200px;
  }
 
  h1.locobot-sec3-middle-h1 {
@@ -935,8 +936,8 @@
    width: 90%;
  }
 
-    /* RESPONSIVE */
-    @media only screen and (max-width: 1250px) {
+   /* RESPONSIVE */
+   @media only screen and (max-width: 1250px) {
     div.locobot-container4 {
         flex-flow: wrap-reverse;
     }
@@ -999,6 +1000,13 @@
      margin-bottom: 0px;
    }
  }
+
+  /* MOBILE */
+  @media only screen and (max-width: 887px) {
+    video.locobot-sec4-img-src {
+        width: 100%;
+      }
+}
 
  /* MOBILE */
  @media only screen and (max-width: 736px) {
@@ -1077,13 +1085,31 @@
    width: 100%;
  }
 
-     /* RESPONSIVE */
-     @media only screen and (max-width: 1250px) {
+    /* RESPONSIVE */
+    @media only screen and (max-width: 1250px) {
         div.locobot-container5 {
             flex-flow: wrap;
         }
+
+        div.locobot-sec5-box1 {
+            width: 951.3px;
+            padding: 40px 50px 20px 50px;
+        }
+
+        h1.locobot-sec5-h1 {
+            max-width: 100%;
+            font-size: 61px;
+        }
+
+        p.locobot-sec5-p {
+            max-width: 100%;
+        }
+
+        div.locobot-sec5-box2 {
+            padding: 20px 0px 20px 0px;
+        }
     }
-    
+
  /* TABLET */
  @media only screen and (max-width: 1024px) {
    div.locobot-container5 {
@@ -1107,6 +1133,7 @@
      text-align: left;
      max-width: 100%;
      margin: 0px 100px 5px 100px;
+     font-size: 48px;
    }
 
    div.locobot-sec5-line {
@@ -1136,7 +1163,7 @@
    }
 
    h1.locobot-sec5-h1 {
-     font-size: 7.8vw;
+     font-size: 6.1vw;
      text-align: left;
      margin: 0px 30px 10px 30px;
    }
@@ -1322,7 +1349,7 @@
  /* Fixes line issue */
  @media only screen and (max-width: 1200px) {
    div.locobot-sec6-line {
-     margin: 15px 440px 10px 440px;
+     margin: 15px 340px 10px 340px;
    }
  }
 
@@ -1420,6 +1447,10 @@
      padding: 0px 0px 20px 0px;
    }
 
+   p.locobot-sec6-top-middle-p {
+    margin: 0px 30px 40px 30px;
+  }
+
    h1.locobot-sec6-l1-h1 {
      margin-top: 0px;
    }
@@ -1479,7 +1510,7 @@
 
    div.locobot-sec6-line {
      display: block;
-     margin: 10px 70px 10px 70px;
+     margin: 10px 150px 10px 150px;
    }
  }
 
