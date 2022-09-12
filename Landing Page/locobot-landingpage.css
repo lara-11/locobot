@@ -421,7 +421,7 @@
  h1.locobot-sec4-h1 {
    max-width: 670px;
    text-align: left;
-   font-size: 60px;
+   font-size: 50px;
    color: #1a272d;
    margin-top: 0px;
  }
@@ -529,7 +529,7 @@
    }
 
    h1.locobot-sec4-h1 {
-     font-size: 42px;
+     font-size: 41px;
      text-align: left;
    }
 
@@ -668,7 +668,7 @@
    }
 
    h1.locobot-sec5-h1 {
-     font-size: 6.1vw;
+     font-size: 8vw;
      text-align: left;
      margin: 0px 30px 10px 30px;
    }
@@ -702,7 +702,7 @@
  }
 
  p.locobot-sec6-top-middle-p {
-   font-size: 14.5px;
+   font-size: 17.5px;
    text-align: center;
    margin: 0px 120px 40px 120px;
  }
@@ -865,6 +865,10 @@
      margin: 0px 0px 0px 80px;
    }
 
+   p.locobot-sec6-top-middle-p {
+    font-size: 16.5px;
+  }
+
    h1.locobot-sec6-h1 {
      font-size: 5vw;
      margin-top: 40px;
@@ -953,6 +957,7 @@
    }
 
    p.locobot-sec6-top-middle-p {
+    font-size: 15.5px;
     margin: 0px 30px 40px 30px;
   }
 
@@ -1185,7 +1190,7 @@
  }
 
  h1.locobot-sec8-h1 {
-   font-size: 62px;
+   font-size: 55px;
    color: #1a272d;
    margin: 0px 120px 0px 120px;
  }
@@ -1374,7 +1379,7 @@ div.unitree-links-box {
    }
 
    h1.locobot-sec9-h1 {
-     font-size: 5vw;
+     font-size: 6vw;
    }
 
    div.locobot-sec9-line {
@@ -1418,7 +1423,7 @@ div.unitree-links-box {
    }
 
    h1.locobot-sec9-h1 {
-     font-size: 34px;
+     font-size: 45px;
      padding: 0px 0px 0px 0px;
    }
 
