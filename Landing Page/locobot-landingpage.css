@@ -437,8 +437,10 @@
    text-align: justify;
  }
 
- video.locobot-sec4-img-src {
-   width: 90%;
+ iframe.locobot-sec4-img-src {
+  width: 700px;
+  height: 380px;
+  max-width: 100%;
  }
 
  /* RESPONSIVE */
@@ -476,7 +478,9 @@
      padding: 20px 100px 40px 100px;
    }
 
-   figure.locobot-sec4-img {
+   iframe.locobot-sec4-img {
+    width: 650px;
+    height: 340px;
      text-align: center;
    }
 
@@ -508,8 +512,9 @@
 
  /* MOBILE */
  @media only screen and (max-width: 887px) {
-   video.locobot-sec4-img-src {
-     width: 100%;
+   iframe.locobot-sec4-img-src {
+    width: 650px;
+    height: 340px;
    }
  }
 
@@ -539,6 +544,11 @@
 
    p.locobot-sec4-p {
      font-size: 14px;
+   }
+
+   iframe.locobot-sec4-img-src {
+    width: 420px;
+    height: 220px;
    }
  }
 
