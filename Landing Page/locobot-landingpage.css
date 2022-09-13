@@ -1105,14 +1105,6 @@
 
  /* SIZE */
  @media only screen and (max-width: 1250px) {
-   figure.laptop-size {
-     max-width: 450px;
-   }
-
-   figure.laptop-size2 {
-     max-width: 450px;
-   }
-
    div.locobot-sec7-line {
      margin: 15px 375px 10px 375px;
    }
@@ -1171,6 +1163,11 @@
      padding: 10px 0px 40px 0px;
      margin: 0px 30px 0px 30px;
    }
+
+   div.locobot-sec7-links {
+    margin-left: auto;
+    margin-right: auto;
+  }
  }
 
  /* SECTION 8 */
@@ -1491,7 +1488,7 @@ div.unitree-links-box {
  }
 
  img.unitree-contact-img2 {
-   transform: scaleX(-1);
+   /* transform: scaleX(-1); */
    width: 408px;
  }
 
