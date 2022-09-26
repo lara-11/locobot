@@ -190,7 +190,7 @@
    font-size: 20px;
    text-align: center;
    color: #1a272d;
-   margin: 15px 40px 10px 40px;
+   margin: 30px 40px 10px 40px;
  }
 
  p.locobot-sec3-left-p {
@@ -230,7 +230,7 @@
    text-align: center;
    font-size: 20px;
    color: #1a272d;
-   margin: 15px 40px 10px 40px;
+   margin: 30px 40px 10px 40px;
  }
 
  p.locobot-sec3-middle-p {
@@ -258,7 +258,7 @@
    text-align: center;
    font-size: 20px;
    color: #1a272d;
-   margin: 15px 40px 10px 40px;
+   margin: 30px 40px 10px 40px;
  }
 
  p.locobot-sec3-right-p {
@@ -279,7 +279,7 @@
    }
 
    h1.locobot-sec3-left-h1 {
-     margin: 15px 0px 10px 0px;
+     margin: 30px 0px 10px 0px;
    }
 
    p.locobot-sec3-left-p {
@@ -306,7 +306,7 @@
    }
 
    h1.locobot-sec3-middle-h1 {
-     margin: 15px 0px 10px 0px;
+     margin: 30px 0px 10px 0px;
    }
 
    p.locobot-sec3-middle-p {
@@ -324,7 +324,7 @@
    }
 
    h1.locobot-sec3-right-h1 {
-     margin: 15px 0px 10px 0px;
+     margin: 30px 0px 10px 0px;
    }
 
    p.locobot-sec3-right-p {
@@ -713,9 +713,9 @@
  }
 
  p.locobot-sec6-top-middle-p {
-   font-size: 17.5px;
+   font-size: 16px;
    text-align: center;
-   margin: 0px 120px 40px 120px;
+   margin: 0px 120px 20px 120px;
  }
 
  div.locobot-container6 {
@@ -1370,7 +1370,7 @@ div.unitree-links-box {
 
  td,
  th {
-   border: 1px solid #dddddd;
+   /* border: 1px solid #dddddd; */
    text-align: left;
    padding: 8px;
  }
@@ -1640,4 +1640,8 @@ div.unitree-links-box {
      margin-top: 1px;
      margin-bottom: 0px;
    }
+ }
+
+ label {
+  color: white!important;
  }
